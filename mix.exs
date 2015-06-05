@@ -4,7 +4,7 @@ defmodule Philae.Mixfile do
   def project do
     [app: :philae,
      version: "0.0.1",
-     elixir: "~> 1.0",
+     elixir: ">= 1.0.0",
      deps: deps]
   end
 
